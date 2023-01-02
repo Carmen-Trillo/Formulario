@@ -1,0 +1,71 @@
+body{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    text-transform: uppercase;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    color: darkslategray;
+}
+
+form {
+    text-align: left;
+    border: solid 2px rgb(15, 95, 95);
+    border-radius: 10px;
+    width: 25em;
+    margin:auto;
+    padding-left: 1em;
+}
+
+label {
+    border: solid 1px aqua;
+    background-color: aquamarine;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+input {
+	margin-right:20px;
+    margin-top: 1em;
+    margin-bottom: 1em;;
+    border: solid 1px aqua;
+    padding: 7px;
+    border-radius: 10px;
+    width: 17em;
+}
+
+#agregar {
+    background-color: rgb(15, 95, 95);
+    font-size: medium;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:white;
+    border: solid 1px rgb(9, 57, 57);
+    border-radius: 5px;
+    padding: 8px;
+    width: 10vw;
+}
+
+table {
+	width:900px;
+    margin: auto;
+    border: 1px solid rgb(15, 95, 95);
+}
+
+th {
+	text-align:center;
+    text-transform: uppercase;
+    font-weight: 400;
+    background-color: darkslategrey;
+    color: white;
+    width: auto;
+}
+
+#eliminar {
+    padding: 1px;
+    width: 80px;
+}
+
+

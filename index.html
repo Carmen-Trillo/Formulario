@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <h1>Formulario</h1>
+    </header>
+
+    <body>
+ 
+        <form class="formulario" method="POST">
+            <label>Nombre</label>
+            <input type="text" id="inputNombre" name="nombre" placeholder="Introduzca su nombre" autofocus required>
+            <br>
+            <label>Apellidos</label>
+            <input type="text" id="inputApellidos" name="apellidos" required>
+            <br>
+            <label>Equipo favorito</label>
+            <input type="text" id="inputEquipo" name="equipo" required>
+            <br>
+            <label>Color favorito</label>
+            <input type="text" id="inputColor" name="color" required>
+        </form>    
+            
+            <br>
+            <input type="button" value="Agregar" id="agregar" onclick="agregar()">
+        </div>
+            <br>
+         
+
+
+        <p id="result"></p>
+        
+        <section>
+            <div>
+                <table id="tablaDatos">
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Apellidos</th>
+                        <th>Equipo</th>
+                        <th>Color favorito</th>
+                        <th>Eliminar</th>
+                        <!--esta es la columna donde irá el botón eliminar-->
+                    </tr>
+                    <!-- los elementos nuevos van aquí-->
+                </table>
+            </div>
+        </section>
+   
+    <script src="./index.js" type="text/javascript"></script>
+    <script src="./prueba.js" type="text/javascript"></script>
+</body>
+</html>
